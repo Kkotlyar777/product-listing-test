@@ -1,0 +1,121 @@
+.App
+    width: 100vm
+    height: 100vh
+    display: flex
+
+.Sidebar
+    height: 100vh
+    width: 20%
+    padding-top: 50px
+    padding-right: 0
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    align-items: center
+    overflow: hidden
+
+.ItemList
+    height: 100vh
+    width: 80%
+    padding: 50px
+    overflow: auto
+    display: flex
+    flex-wrap: wrap
+    align-content: flex-star
+    gap: 40px
+
+.mainFilterCont
+    width: 80%
+    height: 550px
+    background: #fcfcfc
+    border-radius: 7px
+    box-shadow: 3px 3px 15px 2px rgba(0,0,0,0.4)
+    padding: 17px
+
+.nameFilterCont
+    min-height: 126px
+    width: 100%
+    display: flex
+    flex-direction: column
+
+.priceFilterCont
+    min-height: 107px
+    width: 100%
+    display: flex
+    flex-direction: column
+
+.brandFilterCont
+    min-height: 126px
+    width: 100%
+    display: flex
+    flex-direction: column
+
+.filterTitle
+    font-weight: 500
+    font-size: 24px
+    color: #140342
+    font-family: var(--font-family)
+    margin-bottom: 19px
+
+.filterInputTxt
+    width: 210px
+    height: 40px
+    font-family: var(--font-family)
+    font-weight: 400
+    font-size: 14px
+    color: #667085
+    border: 2px solid #e4e4e4
+    border-radius: 5px
+    padding: 10px
+    outline: none
+    margin-bottom: 40px
+
+.filterInputNumDiv
+    display: flex
+    gap: 25px
+    margin-bottom: 40px
+
+.filterInputNum
+    border: 2px solid #e4e4e4
+    border-radius: 10px
+    padding: 10px
+    width: 100px
+    height: 33px
+
+.filtersLine
+    width: 100%
+    height: 1px
+    background: #ddd
+    margin-bottom: 30px
+
+.filterBtnDiv
+    width: 100%
+    display: flex
+    justify-content: center
+
+.filterBtn
+    width: 210px
+    height: 40px
+    font-family: var(--font-family)
+    font-weight: 400
+    font-size: 14px
+    color: #667085
+    border: 1px solid #e4e4e4
+    border-radius: 5px
+    padding: 10px 0px
+    width: 210px
+    height: 40px
+    background: white
+    cursor: pointer
+    &:hover
+        background: #cecece
+
+.pagesList
+    height: 40px
+    display: flex
+    gap: 10px
+    margin-top: 180px
+    margin-bottom: 180px
+    display: flex
+    width: 100%
+    justify-content: center
